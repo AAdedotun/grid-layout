@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(35, 33, 33);
+}
+
+.header {
+    font-family: high tower text;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 100;
+    margin: 25px 20px;
+    color: white;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "item1 item1 item1 item1"
+        "item2 item2 item2 item3"
+        "item4 item5 item6 item7"
+        "item4 item8 item9 item7"
+        "item10 item10 item11 item7"
+        "item12 item12 item12 item12";
+    ;
+    gap: 10px;
+}
+
+.item {
+    width: 100%;
+    height: 220px;
+    padding: 80px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.item h3 {
+    font-family: high tower text;
+    font-size: 20px;
+    padding-top: 100px;
+    text-align: left;
+    padding-bottom: 0px;
+    direction: ltr;
+}
+
+.item1 {
+    background-image: url(./assets/item-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item1; */
+}
+
+.item2 {
+    background-image: url(./assets/item-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item2; */
+}
+
+
+.item3 {
+    background-image: url(/assets/item-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item3; */
+}
+
+.item4 {
+    background-image: url(assets/item-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item4; */
+}
+
+.item5 {
+    background-image: url(assets/item-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item5; */
+}
+
+.item6 {
+    background-image: url(assets/item-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item6; */
+}
+
+.item7 {
+    background-image: url(assets/item-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item7; */
+}
+
+.item8 {
+    background-image: url(assets/item-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item8; */
+}
+
+.item9 {
+    background-image: url(assets/item-9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item9; */
+}
+
+.item10 {
+    background-image: url(assets/item-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item10; */
+}
+
+.item11 {
+    background-image: url(assets/item-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item11; */
+}
+
+.item12 {
+    background-image: url(assets/item-12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* grid-area: item12; */
+}
